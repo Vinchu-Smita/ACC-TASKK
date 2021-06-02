@@ -1,0 +1,28 @@
+<%- include('header')%>
+    <div class="container">
+        <h1>Sign Up Page</h1>
+        <form id="adduser">
+            <div class="form-group">
+              <label for="exampleInputEmail1">User Name</label>
+              <input type="text" class="form-control" name="uname" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="err_1"></div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1"> User Mobile No</label>
+                <input type="text" class="form-control" name="umobile" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="err_2"></div>
+              </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1"> User Email address</label>
+                <input type="email" class="form-control" name="uemail" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="err_3"></div>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1"> User Password</label>
+                <input type="password" class="form-control" name="upass" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="err_4"></div>
+              </div>
+              <button type="button" class="btn btn-primary btn_add">Sign Up</button>
+          </form>
+    </div>
+    <%- include('footer')%>
